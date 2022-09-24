@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/picture_new.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text p {
+    text-decoration: underline dotted white;
+    font-family: 'David Libre', serif;
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 65px;
+}
+
+.header-text h1 {
+    margin-top: 178px;
+    font-size: 60px;
+    margin-left: 65px;
+}
+
+.header-text h1 span {
+    color: #f29797;
+}
+
+.about h1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 180px;
+}
+
+.about h1:hover {
+    background-color: #f29797;
+    color: black;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.about p {
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+    font-size: 22px;
+}
+
+.card {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-body {
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+.card:hover {
+    transform: translateX(15px);
+    transform: translateY(-15px);
+}
+
+.card-title {
+    transition: transform 0.5s;
+    text-decoration: underline;
+    font-weight: 4000;
+}
+
+.card-title {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 25px;
+}
+
+
+.card-title:hover {
+    color: #f29797;
+    font-weight: 1000;
+    font-size: 30px;
+    transform: translateY(-15px);
+}
+
+.card li span {
+    color: rgb(224, 71, 71);
+    font-size: 20px;
+}
+
+.card li {
+    transition: transform 0.5s;
+}
+
+.card li:hover {
+    transform: translateX(35px);
+}
+
+.social-icons {
+    color: white;
+    margin: 35px 30px;
+    margin-top: 46px;
+    margin-right: -140px;
+}
+
+.social-icons a i {
+    margin-left: 24px;
+    font-size: 30px;
+    transition: transform 0.5s;
+    color: white;
+}
+
+.social-icons a i:hover {
+    font-size: 32px;
+    color: #f29797;
+    transform: translateY(-5px);
+}
+
+div .contact-left {
+    flex-basis: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+
+.contact-left h1 span {
+    display: block;
+    justify-content: space-around;
+    font-size: 50px;
+    margin-right: 1092px;
+    margin-left: -111px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.contact-left h1 span:hover {
+    background-color: #f29797;
+    color: black;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 1226px;
+}
+
+.contact-left p {
+    margin: 16px 30px;
+    font-size: 18px;
+    margin-left: -111px;
+}
+
+.contact-left p:hover {
+    font-size: 21px;
+}
+
+.contact-left p i {
+    color: #f29797;
+}
+
+.btn {
+    display: block;
+    margin: 15px 150px;
+    padding: 25px;
+    background-color: #f29797;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 677px;
+}
+
+div .contact-right {
+    padding-left: 632px;
+    font-size: 20px;
+}
+
+.contact-right form {
+    width: 70%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #393737;
+    color: white;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.contact-right {
+    float: right;
+    display: contents;
+}
+
+.contact-right pre {
+    display: flex;
+}

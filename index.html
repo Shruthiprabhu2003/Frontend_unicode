@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <img src="picture_new1.jpg" class="rounded float-end" alt="...">
+
+    <div class="header-text">
+        <h1>Hi, I'm <span>Shruthi Prabhu</span></h1>
+        <p>Web Developer</p>
+    </div>
+    <div class="about">
+        <h1>About Me</h1>
+        <p>I'm a second year Computer Engineer currently studying in DJ Sanghvi College, Mumbai. I
+            started learning Front-end Development recently and I am enjoying the learning and execution
+            process. I wish to succeed in this domain as well as learn Back-end Development and be a
+            Full Stack Developer. I am open to learn new things which might seem interesting and will give
+            my cent percent.</p>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="skills.medium.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">SKILLS</h3>
+                <p class="card-text">
+                    <li><span>C Language</span><br>Learnt C Language in Sem1</li>
+                    <li><span>Java Language</span><br>Learnt Java in 9th and 10th</li>
+                    <li><span>Web Development</span><br>Learning Front-end Development</li>
+                </p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="hobbies.medium.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">HOBBIES</h3>
+                <p class="card-text">
+                    <li><span>Dancing</span><br>Learnt Kathak for 9 years</li>
+                    <li><span>Sports</span><br>Love playing outdoor games</li>
+                    <li><span>Music</span><br>Music are complete mood lifters</li>
+                </p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="education.medium.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">EDUCATION</h3>
+                <p class="card-text">
+                    <li><span>10th Board</span><br>Scored 95.5%</li>
+                    <li><span>12th Board</span><br>Scored 95.5%</li>
+                    <li><span>JEE Mains</span><br>Scored 95.18%ile</li>
+                    <li><span>MHT CET</span><br>Scored 98.52%ile</li>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1><span>Contact Me</span></h1>                    
+                    <p><i class="bi bi-envelope-open"></i><span> pshruthi2003@gmail.com</span></p>
+                      <br>
+                      <p><i class="bi bi-telephone-fill"></i><span> 8847736460</span></p>
+                    <span class="social-icons">
+                        <a href="https://about.meta.com/?utm_source=about.facebook.com&utm_medium=redirect"
+                            target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/shruthi.prabhu_/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shruthi-prabhu-99770324b/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqbzVJCzhRQQmCXXdCPnjGxSJBHvrQkPWKzPtgQQbvchtclJdJKqVdNGWvFlLMgxJJshbq"
+                            target="_blank"><i class="bi bi-envelope"></i></a>
+                    </span>
+
+                    <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Phone" placeholder="Contact Number" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="date" name="dob" placeholder="dd/mm/yy" max="24/09/2022" required>
+                        <pre><input type="radio" name="gender">Male  
+                        <input type="radio" name="gender">Female</pre>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
